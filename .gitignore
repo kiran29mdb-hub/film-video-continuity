@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Video files
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# FILM model weights
+pretrained_models/
+
+# Temporary generated files
+transition_jobs/
+transition_input/
+transition_output/
+extracted_frames/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# External FILM repository (managed separately)
+frame-interpolation/
+
+# Compressed model weights
+pretrained_models.zip
